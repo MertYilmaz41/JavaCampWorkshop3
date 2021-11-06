@@ -1,7 +1,7 @@
 package javaKampDay3;
 
 public class UserManager {
-	public void add(User user) 
+	public void add() 
 	{
 		System.out.println("Kullanýcý eklendi.");
 	}

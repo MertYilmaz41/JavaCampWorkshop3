@@ -14,13 +14,13 @@ public class Main {
 		StudentManager studentManager = new StudentManager();
 		studentManager.homework(student1);
 		
+		
+		
 		InstructorManager instructorManager = new InstructorManager();
 		instructorManager.checkHomework(instructor1);
 		
-		UserManager userManager = new UserManager();
-		userManager.add(instructor2);
-		userManager.add(student2);
 		
+
 
 	}
 
