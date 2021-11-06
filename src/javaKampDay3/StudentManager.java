@@ -2,14 +2,14 @@ package javaKampDay3;
 
 public class StudentManager extends UserManager{
 	@Override
-	public void add() 
+	public void add(User user ) 
 	{
-		System.out.println("Öğrenci derse katıldı.");
+		System.out.println("Öğrenci derse katıldı --> " + user.name);
 		
 	}
 	
-	public void homework() 
+	public void homework(Student student) 
 	{
-		System.out.println("Öğrenci ödevini yaptı.");
+		System.out.println("Öğrenci ödevini yaptı --> " + student.name);
 	}
 }

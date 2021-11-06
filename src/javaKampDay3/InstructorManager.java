@@ -1,15 +1,16 @@
 package javaKampDay3;
 
 public class InstructorManager extends UserManager{
+	
 	@Override
-	public void add() 
+	public void add(User user) 
 	{
-		System.out.println("Eðitmen derse girdi.");
+		System.out.println("Eðitmen derse girdi --> " + user.name);
 	}
 	
-	public void checkHomework() 
+	public void checkHomework(Instructor instructor) 
 	{
-		System.out.println("Eðitmen ödevi kontrol etti.");
+		System.out.println("Eðitmen ödevi kontrol etti --> " + instructor.name);
 	}
 
 }
